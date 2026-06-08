@@ -6,7 +6,9 @@ import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import com.in28minutes.springboot.learnjpaandhibernate.course.Course;
+import com.example.springboot.course.Course;
+
+
 
 @Repository
 public class CourseJdbcRepository {
