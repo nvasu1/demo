@@ -8,6 +8,7 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		System.out.println("Tomcat port was change from 8080 to 7080");
+		System.out.println("nathan first change to merge in dev branch");
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
