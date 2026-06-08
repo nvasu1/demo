@@ -14,8 +14,17 @@ public class Course {
 	
 	private String authorName;
 
-	private String address
+	private String address;
 	
+	public String getAddress() {
+		return address;
+	}
+
+
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
 	private String city;
 	
 	public String getCity() {
@@ -39,7 +48,7 @@ public class Course {
 		super();
 		this.id = id;
 		this.name = name;
-		this.author = author;
+		this.authorName = author;
 	}
 
 
@@ -63,15 +72,15 @@ public class Course {
 	}
 
 	public String getAuthor() {
-		return author;
+		return authorName;
 	}
 
 	public void setAuthor(String author) {
-		this.author = author;
+		this.authorName = author;
 }
 	@Override
 	public String toString() {		
-		return "Course [id="+id+", name ="+name+" , Author = "+author+"]";
+		return "Course [id="+id+", name ="+name+" , Author = "+authorName+"]";
 	}
 
 }
