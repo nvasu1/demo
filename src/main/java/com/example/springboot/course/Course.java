@@ -12,38 +12,16 @@ public class Course {
 	private String name;
 		
 	private String author;
-
-	private String address;
 	
-	private String city;
-	
-	public String getCity() {
-		return city;
-	}
-
-
-
-	public void setCity(String city) {
-		this.city = city;
-	}
-
-
-
 	public Course() {
 	}
 	
-	
-
 	public Course(long id, String name, String author) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.author = author;
 	}
-
-
-
-
 
 	public long getId() {
 		return id;
