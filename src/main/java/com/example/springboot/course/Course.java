@@ -10,11 +10,7 @@ public class Course {
 	private long id;
 	
 	private String name;
-	
-	
-	private String authorName;
 
-	private String address;
 	
 	public String getAddress() {
 		return address;
@@ -25,17 +21,7 @@ public class Course {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	private String city;
-	
-	public String getCity() {
-		return city;
-	}
 
-
-
-	public void setCity(String city) {
-		this.city = city;
-	}
 
 
 
