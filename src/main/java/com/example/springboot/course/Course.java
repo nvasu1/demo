@@ -12,7 +12,9 @@ public class Course {
 	private String name;
 	
 	
-	private String author;
+	private String authorName;
+
+	private String address
 	
 	private String city;
 	
