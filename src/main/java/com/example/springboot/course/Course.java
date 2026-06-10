@@ -14,6 +14,26 @@ public class Course {
 	private String author;
 	
 
+	private String sex;
+	
+	private String Address;
+	
+	public String getSex() {
+		return sex;
+	}
+
+	public void setSex(String sex) {
+		this.sex = sex;
+	}
+
+	public String getAddress() {
+		return Address;
+	}
+
+	public void setAddress(String address) {
+		Address = address;
+	}
+
 	public Course() {
 	}
 	
